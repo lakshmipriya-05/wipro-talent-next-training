@@ -1,0 +1,21 @@
+import java.util.scanner;
+
+class checkevenodd
+{
+ public static void main(string args[])
+ {
+ int num;
+ system.out.println("enter an integer number:");
+ 
+ 
+ scanner input = new scanner(/system.in);
+ num = input.nextint();
+ 
+ 
+ if (num%2 == 0)
+     system.out.println("entered num is even");
+ else
+     system.out.println("entered number is odd");
+ }
+}
+  
